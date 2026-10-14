@@ -1,0 +1,71 @@
+.coleccion-contenedor {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.barram-busqueda {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.input-busqueda {
+  padding: 10px 15px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #ff9800;
+  background-color: #222;
+  color: white;
+  font-size: 1rem;
+}
+
+.select-filtro {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ff9800;
+  background-color: #222;
+  color: white;
+  font-size: 1rem;
+}
+
+.grid-coleccion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjeta-coleccion {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.tarjeta-coleccion img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.btn-ver {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #ff9800;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.sin-resultados {
+  margin-top: 30px;
+  color: #aaa;
+  font-size: 1.2rem;
+}

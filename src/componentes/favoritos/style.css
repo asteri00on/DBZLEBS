@@ -1,0 +1,82 @@
+.favoritos-contenedor {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sin-favoritos {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.grid-favoritos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tarjeta-favorito {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+}
+
+.tarjeta-favorito img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.acciones-favorito {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  gap: 5px;
+}
+
+.btn-ver {
+  padding: 6px 10px;
+  background-color: #ff9800;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.btn-eliminar {
+  padding: 6px 10px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-fav {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+.btn-fav.agregar {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-fav.eliminar {
+  background-color: #f44336;
+  color: white;
+}

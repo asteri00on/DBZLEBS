@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1a1a2e;
+  padding: 1rem;
+  border-bottom: 3px solid #ff9800;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: #ff9800;
+}
